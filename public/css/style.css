@@ -1,0 +1,396 @@
+* {
+  font-family: monospace;
+}
+
+:root {
+  --mainBG: #99D5FF;
+  --lightTextColor: #e3e4e3;
+  --secondaryBG: azure;
+  --secondary: #997555;
+  --tertiary: azure;
+
+  --navLinks: azure;
+
+  --primary: #3d5852;
+  
+  --quatrinary: #6c6b67;
+  
+  --light: #e3e4e3;
+  --dark: #182c23;
+  --error: rgb(228, 46, 1);
+  --border-radius: 0.3rem;
+}
+
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: var(--mainBG);
+}
+
+.form-signin {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.form-signin input[type="password"] {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.headerBG {
+  opacity: 95%;
+  background-color:var(--secondary);
+  border-radius: 20px;
+  font-family: 'Sonsie One', cursive;
+  width: 100%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.signup-form {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.homePageImg {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card {
+  opacity: 95%;
+  background-color:var(--tertiary);
+}
+
+.rentBox {
+  background-color: var(--quatrinary);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  width: 250px;
+}
+
+.rentBtn {
+  width: 950px;
+  height: 150px;
+}
+
+.boardRentalCard {
+  background-color: grey;
+  font-size: 13px;
+  font-weight: 800;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  opacity: 94%;
+}
+
+.boardCardTitle {
+  font-size: 15px;
+}
+
+
+form {
+  background-color: white;
+
+}
+
+.adminTitle {
+  font-size: 90px;
+  font-family: 'Monoton', cursive;
+}
+
+.adminToolBox {
+  background-color: rgba(238, 236, 236, 0.777);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  opacity: 96%;
+}
+
+.signupPicture {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.nav-link {
+  width: 100%;
+  font-size: 30px;
+  background-color: var(--navLinks);
+  /* font-family: 'Orbitron', sans-serif; */
+  font-family: 'Sonsie One', cursive;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.loginAndSignBtn {
+  /* font-family: 'Orbitron', sans-serif; */
+  font-family: 'Sonsie One', cursive;
+  font-size: 50px;
+}
+
+.logoTitle {
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+}
+
+.signupCard {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+ 
+.login-form {
+  background-color: var(--navLinks);
+  width: 450px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  opacity: 90%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.h3 {
+  font-size: 20px;
+}
+
+.table-font {
+
+  font-size: 20px;
+}
+
+.adminBtn {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.home-main-img {
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -ms-border-radius: 80px;
+  -o-border-radius: 80px;
+}
+
+.welcome {
+  font-size: 80px;
+  color: black;
+  font-family: monospace;
+}
+
+.aboutTitle {
+  font-size: 50px;
+  font-family: monospace
+}
+
+.aboutText {
+  font-size: 35px;
+  font-family: monospace
+}
+
+.aboutCard {
+  background-color: var(--secondaryBG);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  opacity: 94%;
+}
+
+
+.aboutPageCard {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  opacity: 94%;
+  background-color: var(--tertiary);
+
+}
+
+.aboutPageAbout {
+  color: black;
+  font-size: 70px;
+  font-family: monospace
+}
+
+.aboutPagePicture {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.aboutPageTitle {
+  font-size: 50px;
+}
+
+.rentalsContainer {
+  background-color: var(--tertiary);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  opacity: 96%;
+}
+
+.contactFormCard {
+  background-color: var(--tertiary);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  opacity: 96%;
+
+}
+
+.surfboardCard {
+  background-color: var(--tertiary);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.theClubCard P {
+  font-size: 24px;
+}
+
+.theClubCard {
+  background-color:var(--secondary);
+  opacity: 94%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  font-family: monospace;
+}
+
+.shapersCard {
+  background-color: white;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  opacity: 94%;
+}
+
+.board-rental {
+  font-family: monospace;
+  color: white;
+  font-size: 25px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 75px;
+}
+
+.rental-header {
+  font-size: 50px;
+  color:black;
+  font-family: monospace;
+}
+
+.locationCards {
+  background: var(--tertiary);
+}
+
+/* =================== Footer ===================  */
+
+footer {
+  margin-top: 350px;
+  bottom: 0;
+  text-align: center;
+  background: var(--secondary);
+  color: white;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  opacity: 96%;
+}
+
+
+footer ul li {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+footer ul {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.footerTitle {
+  font-size: 45px;
+  font-family: 'Monoton', cursive;
+  color: black;
+}
+
+.inventoryTable {
+  background-color: var(--tertiary) ;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  opacity: 96%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+

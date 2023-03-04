@@ -1,0 +1,42 @@
+<div class="d-flex container col">
+  <div class="row d-flex container rentalsContainer p-1 m-5">
+    <div>
+      <h1 class="d-flex rental-header justify-content-center m-2">Rentals Available</h1>
+  
+      <div class="board-rental">
+  
+        {{#each surfboards as |surfboard|}}
+        <section class="surfboard-data rentBtnEl boardRentalCard card p-2 pt-2">
+          <img src="./img/{{surfboard.img}}" width="200" height="400" alt="" class="card-img-top">
+  
+          <h3 class="d-flex justify-content-center boardCardTitle align-content-center"> {{surfboard.brand}} </h3>
+          <h3 class="d-flex justify-content-center boardCardTitle align-content-center"> {{surfboard.board_model}} </h3>
+          <p> <br> Board # &nbsp&nbsp&nbsp: {{surfboard.board_num}} </p>
+          <p> Length &nbsp&nbsp&nbsp&nbsp: {{surfboard.length_inch}} </p>
+          <p> Fin Config : {{surfboard.fin_setup}} </p>
+          <p> Location&nbsp&nbsp&nbsp: {{surfboard.location_id}} </p>
+  
+        </section>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<form id="surfboardrentalForm">
+<div class="input-group mb-3">
+<button class="btn btn-outline-secondary" id="surfboardrentalSubmit" type="submit">Rent</button>
+<select class="form-select" id="surfboardrentalSelect" aria-label="Default select example">
+  <option selected>Select Board to Rent by Board Number</option>
+  {{#each surfboards as |surfboard|}}
+  <option value="{{surfboard.id}}">{{surfboard.board_num}}</option>
+  {{/each}}
+
+</select>
+</div>
+</form>
+
+
+
+<script src="./js/rental.js"></script>
